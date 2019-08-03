@@ -1,0 +1,606 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BencodeWriter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BencodeWriter
+   ">
+    <meta name="generator" content="docfx 2.44.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ItsyBitsy.Bencoding.BencodeWriter">
+  
+  
+  <h1 id="ItsyBitsy_Bencoding_BencodeWriter" data-uid="ItsyBitsy.Bencoding.BencodeWriter" class="text-break">Class BencodeWriter
+  </h1>
+  <div class="markdown level0 summary">
+A writer that provides generation of bencoded data.
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BencodeWriter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ItsyBitsy.Bencoding.html">ItsyBitsy.Bencoding</a></h6>
+  <h6><strong>Assembly</strong>: ItsyBitsy.Bencoding.dll</h6>
+  <h5 id="ItsyBitsy_Bencoding_BencodeWriter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class BencodeWriter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter__ctor_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.#ctor*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter__ctor_System_Buffers_IBufferWriter_System_Byte__System_Boolean_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.#ctor(System.Buffers.IBufferWriter{System.Byte},System.Boolean)">BencodeWriter(IBufferWriter&lt;Byte&gt;, Boolean)</h4>
+  <div class="markdown level1 summary">
+Initializes a new <a class="xref" href="ItsyBitsy.Bencoding.BencodeWriter.html">BencodeWriter</a> instance using the specified destination
+buffer.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BencodeWriter(IBufferWriter&lt;byte&gt; destination, bool skipValidation = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Buffers.IBufferWriter</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">destination</span></td>
+        <td>The destination to write the encoded data into.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">skipValidation</span></td>
+        <td>If <span class="xref">true</span>, keys are not checked for
+    mis-ordering and duplication as they are being written.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><code data-dev-comment-type="paramref" class="paramref">destination</code> is
+<span class="xref">null</span>.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_BufferedLength_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.BufferedLength*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_BufferedLength" data-uid="ItsyBitsy.Bencoding.BencodeWriter.BufferedLength">BufferedLength</h4>
+  <div class="markdown level1 summary">
+Gets the number of bytes that have been written but not yet flushed to the underlying
+<span class="xref">System.Buffers.IBufferWriter&lt;T&gt;</span>.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BufferedLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_CreateSpanWriter_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.CreateSpanWriter*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_CreateSpanWriter" data-uid="ItsyBitsy.Bencoding.BencodeWriter.CreateSpanWriter">CreateSpanWriter()</h4>
+  <div class="markdown level1 summary">
+Gets a <a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanWriter.html">BencodeSpanWriter</a> that continues from the current state of this
+writer.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BencodeSpanWriter CreateSpanWriter()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanWriter.html">BencodeSpanWriter</a></td>
+        <td>A <a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanWriter.html">BencodeSpanWriter</a> that continues from the current state of this
+    writer.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ItsyBitsy_Bencoding_BencodeWriter_CreateSpanWriter_remarks">Remarks</h5>
+  <div class="markdown level1 remarks">
+Do not operate on this writer again until after calling
+<a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanWriter.html#ItsyBitsy_Bencoding_BencodeSpanWriter_Dispose">Dispose()</a> on the <a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanWriter.html">BencodeSpanWriter</a>.
+</div>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_Flush_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.Flush*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_Flush_System_Boolean_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.Flush(System.Boolean)">Flush(Boolean)</h4>
+  <div class="markdown level1 summary">
+Advances the underlying <span class="xref">System.Buffers.IBufferWriter&lt;T&gt;</span>.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Flush(bool final = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">final</span></td>
+        <td>Indicates whether the value should be complete.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><code data-dev-comment-type="paramref" class="paramref">final</code> is
+<span class="xref">true</span> and the value is incomplete.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_WriteDictionaryHead_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteDictionaryHead*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_WriteDictionaryHead" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteDictionaryHead">WriteDictionaryHead()</h4>
+  <div class="markdown level1 summary">
+Writes the beginning of a dictionary.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteDictionaryHead()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    dictionary head to be written.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td>The writer reached the end of the destination buffer
+    while writing the dictionary head.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_WriteDictionaryTail_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteDictionaryTail*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_WriteDictionaryTail" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteDictionaryTail">WriteDictionaryTail()</h4>
+  <div class="markdown level1 summary">
+Writes the end of a dictionary.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteDictionaryTail()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    dictionary tail to be written.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td>The writer reached the end of the destination buffer
+    while writing the dictionary tail.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_WriteInteger_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteInteger*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_WriteInteger_System_Int64_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteInteger(System.Int64)">WriteInteger(Int64)</h4>
+  <div class="markdown level1 summary">
+Writes an integer.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteInteger(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td>The integer to write.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows an
+    integer to be written.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td>The writer reached the end of the destination buffer
+    while writing the integer.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_WriteKey_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteKey*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_WriteKey_System_ReadOnlySpan_System_Byte__" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteKey(System.ReadOnlySpan{System.Byte})">WriteKey(ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary">
+Writes a key.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteKey(ReadOnlySpan&lt;byte&gt; key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td>The key to write.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    key to be written.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td>The writer reached the end of the destination buffer
+    while writing the key.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer was constructed with validation
+    enabled and the key being written is mis-ordered or duplicated.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_WriteListHead_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteListHead*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_WriteListHead" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteListHead">WriteListHead()</h4>
+  <div class="markdown level1 summary">
+Writes the beginning of a list.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteListHead()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    list head to be written.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td>The writer reached the end of the destination buffer
+    while writing the list head.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_WriteListTail_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteListTail*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_WriteListTail" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteListTail">WriteListTail()</h4>
+  <div class="markdown level1 summary">
+Writes the end of a list.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteListTail()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    list tail to be written.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td>The writer reached the end of the destination buffer
+    while writing the list tail.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeWriter_WriteString_" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteString*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeWriter_WriteString_System_ReadOnlySpan_System_Byte__" data-uid="ItsyBitsy.Bencoding.BencodeWriter.WriteString(System.ReadOnlySpan{System.Byte})">WriteString(ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary">
+Writes a string.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteString(ReadOnlySpan&lt;byte&gt; value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td>The string to write.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    string to be written.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td>The writer reached the end of the destination buffer
+    while writing the string.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanWriter.html">BencodeSpanWriter</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

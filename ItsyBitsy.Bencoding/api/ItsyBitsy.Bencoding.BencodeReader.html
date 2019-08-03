@@ -1,0 +1,1114 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BencodeReader
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BencodeReader
+   ">
+    <meta name="generator" content="docfx 2.44.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ItsyBitsy.Bencoding.BencodeReader">
+  
+  
+  <h1 id="ItsyBitsy_Bencoding_BencodeReader" data-uid="ItsyBitsy.Bencoding.BencodeReader" class="text-break">Class BencodeReader
+  </h1>
+  <div class="markdown level0 summary">
+A reader that provides access to bencoded data.
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BencodeReader</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ItsyBitsy.Bencoding.html">ItsyBitsy.Bencoding</a></h6>
+  <h6><strong>Assembly</strong>: ItsyBitsy.Bencoding.dll</h6>
+  <h5 id="ItsyBitsy_Bencoding_BencodeReader_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class BencodeReader</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader__ctor_" data-uid="ItsyBitsy.Bencoding.BencodeReader.#ctor*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader__ctor_System_ReadOnlyMemory_System_Byte__" data-uid="ItsyBitsy.Bencoding.BencodeReader.#ctor(System.ReadOnlyMemory{System.Byte})">BencodeReader(ReadOnlyMemory&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary">
+Initializes a new instance of the <a class="xref" href="ItsyBitsy.Bencoding.BencodeReader.html">BencodeReader</a> class using the specified
+encoded data.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BencodeReader(ReadOnlyMemory&lt;byte&gt; source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlyMemory</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td>The memory containing encoded data.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_Position_" data-uid="ItsyBitsy.Bencoding.BencodeReader.Position*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_Position" data-uid="ItsyBitsy.Bencoding.BencodeReader.Position">Position</h4>
+  <div class="markdown level1 summary">
+Gets or sets the position of the reader in the source memory.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Position { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ItsyBitsy_Bencoding_BencodeReader_Position_remarks">Remarks</h5>
+  <div class="markdown level1 remarks">
+Setting the position puts the reader into a state in which it can read a value.  For
+example, if the position of the reader is set to the position of an element in a list,
+the reader will be able to read only that element and not any subsequent elements.  If
+the position of the reader is set to position of a key, the reader will be able to read
+the key as a value using <a class="xref" href="ItsyBitsy.Bencoding.BencodeReader.html#ItsyBitsy_Bencoding_BencodeReader_ReadString">ReadString()</a> rather than <a class="xref" href="ItsyBitsy.Bencoding.BencodeReader.html#ItsyBitsy_Bencoding_BencodeReader_ReadKey">ReadKey()</a>.
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><code data-dev-comment-type="paramref" class="paramref">value</code> is negative.
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_CreateSpanReader_" data-uid="ItsyBitsy.Bencoding.BencodeReader.CreateSpanReader*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_CreateSpanReader" data-uid="ItsyBitsy.Bencoding.BencodeReader.CreateSpanReader">CreateSpanReader()</h4>
+  <div class="markdown level1 summary">
+Gets a <a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanReader.html">BencodeSpanReader</a> that continues from the current state of this
+reader.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BencodeSpanReader CreateSpanReader()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanReader.html">BencodeSpanReader</a></td>
+        <td>A <a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanReader.html">BencodeSpanReader</a> that continues from the current state of this
+    reader.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ItsyBitsy_Bencoding_BencodeReader_CreateSpanReader_remarks">Remarks</h5>
+  <div class="markdown level1 remarks">
+Do not operate on this reader again until after calling
+<a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanReader.html#ItsyBitsy_Bencoding_BencodeSpanReader_Dispose">Dispose()</a> on the <a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanReader.html">BencodeSpanReader</a>.
+</div>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadDictionary_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadDictionary*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadDictionary_System_Boolean_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadDictionary(System.Boolean)">ReadDictionary(Boolean)</h4>
+  <div class="markdown level1 summary">
+Reads a dictionary and returns a <a class="xref" href="ItsyBitsy.Bencoding.BencodeDictionary.html">BencodeDictionary</a>.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BencodeDictionary ReadDictionary(bool skipDuplicateKeys = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">skipDuplicateKeys</span></td>
+        <td>If <span class="xref">true</span>, duplicate keys are skipped
+    rather than causing <a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a> to be thrown.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.BencodeDictionary.html">BencodeDictionary</a></td>
+        <td>The dictionary.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    dictionary to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered a duplicate key while
+    reading the dictionary.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a value.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered an integer that is
+    not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a string with a
+    length that is not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a key with a length
+    that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadDictionaryHead_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadDictionaryHead*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadDictionaryHead" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadDictionaryHead">ReadDictionaryHead()</h4>
+  <div class="markdown level1 summary">
+Reads the beginning of a dictionary.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadDictionaryHead()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    dictionary head to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read the beginning of a dictionary.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadDictionaryTail_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadDictionaryTail*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadDictionaryTail" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadDictionaryTail">ReadDictionaryTail()</h4>
+  <div class="markdown level1 summary">
+Reads the end of a dictionary.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadDictionaryTail()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    dictionary tail to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read the end of a dictionary.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadInteger_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadInteger*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadInteger" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadInteger">ReadInteger()</h4>
+  <div class="markdown level1 summary">
+Reads an integer.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long ReadInteger()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td>The integer that was read.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows an
+    integer to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read an integer.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered an integer that is
+    not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadKey_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadKey*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadKey" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadKey">ReadKey()</h4>
+  <div class="markdown level1 summary">
+Reads a key.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyMemory&lt;byte&gt; ReadKey()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlyMemory</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td>The key that was read.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    key to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a key.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a key with a length
+    that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadKeyLength_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadKeyLength*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadKeyLength" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadKeyLength">ReadKeyLength()</h4>
+  <div class="markdown level1 summary">
+Determines the length of the key to be read.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReadKeyLength()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td>The length of the key.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ItsyBitsy_Bencoding_BencodeReader_ReadKeyLength_remarks">Remarks</h5>
+  <div class="markdown level1 remarks">
+<a class="xref" href="ItsyBitsy.Bencoding.BencodeReader.html#ItsyBitsy_Bencoding_BencodeReader_ReadKeyLength">ReadKeyLength()</a> will continue to return the same result until the key is
+read or skipped.
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    key to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a key.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a key with a length
+    that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadList_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadList*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadList" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadList">ReadList()</h4>
+  <div class="markdown level1 summary">
+Reads a list and returns the positions of the elements.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BencodeList ReadList()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.BencodeList.html">BencodeList</a></td>
+        <td>The list of positions of the list element values.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    list to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a value.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered an integer that is
+    not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a string with a
+    length that is not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a key with a length
+    that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadListHead_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadListHead*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadListHead" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadListHead">ReadListHead()</h4>
+  <div class="markdown level1 summary">
+Reads the beginning of a list.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadListHead()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    list head to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read the beginning of a list.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadListTail_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadListTail*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadListTail" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadListTail">ReadListTail()</h4>
+  <div class="markdown level1 summary">
+Reads the end of a list.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadListTail()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    list tail to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read the end of a list.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadString_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadString*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadString" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadString">ReadString()</h4>
+  <div class="markdown level1 summary">
+Reads a string.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyMemory&lt;byte&gt; ReadString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlyMemory</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td>The string that was read.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    string to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a string.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a string with a
+    length that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadStringLength_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadStringLength*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadStringLength" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadStringLength">ReadStringLength()</h4>
+  <div class="markdown level1 summary">
+Determines the length of the string to be read.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReadStringLength()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td>The length of the string.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ItsyBitsy_Bencoding_BencodeReader_ReadStringLength_remarks">Remarks</h5>
+  <div class="markdown level1 remarks">
+<a class="xref" href="ItsyBitsy.Bencoding.BencodeReader.html#ItsyBitsy_Bencoding_BencodeReader_ReadStringLength">ReadStringLength()</a> will continue to return the same result until the
+string is read or skipped.
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    string to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a string.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a string with a
+    length that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadTokenType_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadTokenType*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadTokenType" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadTokenType">ReadTokenType()</h4>
+  <div class="markdown level1 summary">
+Determines the type of token that the reader must read next.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BencodeTokenType ReadTokenType()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.BencodeTokenType.html">BencodeTokenType</a></td>
+        <td>The type of token that the reader must read next.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ItsyBitsy_Bencoding_BencodeReader_ReadTokenType_remarks">Remarks</h5>
+  <div class="markdown level1 remarks">
+<p>
+<a class="xref" href="ItsyBitsy.Bencoding.BencodeReader.html#ItsyBitsy_Bencoding_BencodeReader_ReadTokenType">ReadTokenType()</a> will continue to return the same result until the token is
+read or skipped.
+</p>
+<p>
+<a class="xref" href="ItsyBitsy.Bencoding.BencodeReader.html#ItsyBitsy_Bencoding_BencodeReader_ReadTokenType">ReadTokenType()</a> returns <a class="xref" href="ItsyBitsy.Bencoding.BencodeTokenType.html#ItsyBitsy_Bencoding_BencodeTokenType_None">None</a> if the reader
+has previously encountered an error or if the reader is positioned after the end of the
+value.
+</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a token discriminator.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadValueTo_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadValueTo*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadValueTo_ItsyBitsy_Bencoding_BencodeSpanWriter__" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadValueTo(ItsyBitsy.Bencoding.BencodeSpanWriter@)">ReadValueTo(ref BencodeSpanWriter)</h4>
+  <div class="markdown level1 summary">
+Reads a value and writes it to a bencode writer.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadValueTo(ref BencodeSpanWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanWriter.html">BencodeSpanWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td>The bencode writer that the value read from the reader is written
+    to.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    value to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a value.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered an integer that is
+    not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a string with a
+    length that is not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a key with a length
+    that is not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    value to be written.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_ReadValueTo_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadValueTo*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_ReadValueTo_ItsyBitsy_Bencoding_BencodeWriter_" data-uid="ItsyBitsy.Bencoding.BencodeReader.ReadValueTo(ItsyBitsy.Bencoding.BencodeWriter)">ReadValueTo(BencodeWriter)</h4>
+  <div class="markdown level1 summary">
+Reads a value and writes it to a bencode writer.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadValueTo(BencodeWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.BencodeWriter.html">BencodeWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td>The bencode writer that the value read from the reader is written
+    to.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><code data-dev-comment-type="paramref" class="paramref">writer</code> is
+<span class="xref">null</span>.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    value to be read.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to read a value.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered an integer that is
+    not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a string with a
+    length that is not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a key with a length
+    that is not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The writer is not in a state that allows a
+    value to be written.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_SkipKey_" data-uid="ItsyBitsy.Bencoding.BencodeReader.SkipKey*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_SkipKey" data-uid="ItsyBitsy.Bencoding.BencodeReader.SkipKey">SkipKey()</h4>
+  <div class="markdown level1 summary">
+Skips a key.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SkipKey()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    key to be skipped.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to skip a key.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a key with a length
+    that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeReader_SkipValue_" data-uid="ItsyBitsy.Bencoding.BencodeReader.SkipValue*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeReader_SkipValue" data-uid="ItsyBitsy.Bencoding.BencodeReader.SkipValue">SkipValue()</h4>
+  <div class="markdown level1 summary">
+Skips a value.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SkipValue()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td>The reader is not in a state that allows a
+    value to be skipped.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.InvalidBencodeException.html">InvalidBencodeException</a></td>
+        <td>The reader encountered invalid data while
+    attempting to skip a value.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered an integer that is
+    not in the supported range.</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ItsyBitsy.Bencoding.UnsupportedBencodeException.html">UnsupportedBencodeException</a></td>
+        <td>The reader encountered a string with a
+    length that is not in the supported range.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="ItsyBitsy.Bencoding.BencodeSpanReader.html">BencodeSpanReader</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

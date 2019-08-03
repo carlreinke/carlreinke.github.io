@@ -1,0 +1,320 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/itsybitsy-bencoding/ItsyBitsy.Bencoding.Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "24KOIZOYCbbwQE1LF3cmEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "6MOHbkumqsQfXh9osYoqOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeDictionary.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeDictionary.Enumerator.html",
+          "hash": "4NGvQKa4+K++b+LRV9IMIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeDictionary.KeyPositionPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeDictionary.KeyPositionPair.html",
+          "hash": "TeEIcNkoi2jS/iwZPvoNPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeDictionary.html",
+          "hash": "HG5TN8SgyhmWAW05/sHt2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeException.html",
+          "hash": "sOKBXXQQMEQ7Rz7C36mXog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeList.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeList.Enumerator.html",
+          "hash": "SZief2bQZ+WMWKE4mgcAvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeList.html",
+          "hash": "yTEeUy3ndQUw20KIprv51g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeReader.html",
+          "hash": "m1za1EhWoJD91S8nWuQP5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeSpanDictionary.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeSpanDictionary.Enumerator.html",
+          "hash": "2EwBLbKbcpqXOVwzFz0aFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeSpanDictionary.KeyPositionPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeSpanDictionary.KeyPositionPair.html",
+          "hash": "zdiOcOFB5+qkJGVFiUs33A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeSpanDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeSpanDictionary.html",
+          "hash": "AasONjPI9E3CK4FSW8SJ7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeSpanReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeSpanReader.html",
+          "hash": "Ihq91iPZFktXq6AehQM+Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeSpanWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeSpanWriter.html",
+          "hash": "zerlg3AED4WEZcBMtePRzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeStringComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeStringComparer.html",
+          "hash": "vRT/VHSDyUR+Eo7TXNUUoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeTokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeTokenType.html",
+          "hash": "v8saEQFI7vvGqGKYHjWvpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.BencodeWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.BencodeWriter.html",
+          "hash": "oo6PVqJk5azHnhLh822ePA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.InvalidBencodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.InvalidBencodeException.html",
+          "hash": "gYvSNRgBRGboMXu+I7G2DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.UnsupportedBencodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html",
+          "hash": "G0pAyN7f4c4PXUwjmlGmRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docfx/api/ItsyBitsy.Bencoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ItsyBitsy.Bencoding.html",
+          "hash": "pTmS/Zzpu2mST3y10wcLfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/docfx/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "317mOzweS2WBqhrAhgAIyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "b+NmMbLzd5MaDXIws8S0kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 18,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
