@@ -131,24 +131,30 @@ references:
   commentId: M:ItsyBitsy.Bencoding.BencodeException.#ctor
   fullName: ItsyBitsy.Bencoding.BencodeException.BencodeException()
   nameWithType: BencodeException.BencodeException()
+- uid: ItsyBitsy.Bencoding.BencodeException.#ctor(System.Nullable{System.String})
+  name: BencodeException(Nullable<String>)
+  href: api/ItsyBitsy.Bencoding.BencodeException.html#ItsyBitsy_Bencoding_BencodeException__ctor_System_Nullable_System_String__
+  commentId: M:ItsyBitsy.Bencoding.BencodeException.#ctor(System.Nullable{System.String})
+  name.vb: BencodeException(Nullable(Of String))
+  fullName: ItsyBitsy.Bencoding.BencodeException.BencodeException(System.Nullable<System.String>)
+  fullName.vb: ItsyBitsy.Bencoding.BencodeException.BencodeException(System.Nullable(Of System.String))
+  nameWithType: BencodeException.BencodeException(Nullable<String>)
+  nameWithType.vb: BencodeException.BencodeException(Nullable(Of String))
+- uid: ItsyBitsy.Bencoding.BencodeException.#ctor(System.Nullable{System.String},System.Nullable{System.Exception})
+  name: BencodeException(Nullable<String>, Nullable<Exception>)
+  href: api/ItsyBitsy.Bencoding.BencodeException.html#ItsyBitsy_Bencoding_BencodeException__ctor_System_Nullable_System_String__System_Nullable_System_Exception__
+  commentId: M:ItsyBitsy.Bencoding.BencodeException.#ctor(System.Nullable{System.String},System.Nullable{System.Exception})
+  name.vb: BencodeException(Nullable(Of String), Nullable(Of Exception))
+  fullName: ItsyBitsy.Bencoding.BencodeException.BencodeException(System.Nullable<System.String>, System.Nullable<System.Exception>)
+  fullName.vb: ItsyBitsy.Bencoding.BencodeException.BencodeException(System.Nullable(Of System.String), System.Nullable(Of System.Exception))
+  nameWithType: BencodeException.BencodeException(Nullable<String>, Nullable<Exception>)
+  nameWithType.vb: BencodeException.BencodeException(Nullable(Of String), Nullable(Of Exception))
 - uid: ItsyBitsy.Bencoding.BencodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: BencodeException(SerializationInfo, StreamingContext)
   href: api/ItsyBitsy.Bencoding.BencodeException.html#ItsyBitsy_Bencoding_BencodeException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
   commentId: M:ItsyBitsy.Bencoding.BencodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   fullName: ItsyBitsy.Bencoding.BencodeException.BencodeException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: BencodeException.BencodeException(SerializationInfo, StreamingContext)
-- uid: ItsyBitsy.Bencoding.BencodeException.#ctor(System.String)
-  name: BencodeException(String)
-  href: api/ItsyBitsy.Bencoding.BencodeException.html#ItsyBitsy_Bencoding_BencodeException__ctor_System_String_
-  commentId: M:ItsyBitsy.Bencoding.BencodeException.#ctor(System.String)
-  fullName: ItsyBitsy.Bencoding.BencodeException.BencodeException(System.String)
-  nameWithType: BencodeException.BencodeException(String)
-- uid: ItsyBitsy.Bencoding.BencodeException.#ctor(System.String,System.Exception)
-  name: BencodeException(String, Exception)
-  href: api/ItsyBitsy.Bencoding.BencodeException.html#ItsyBitsy_Bencoding_BencodeException__ctor_System_String_System_Exception_
-  commentId: M:ItsyBitsy.Bencoding.BencodeException.#ctor(System.String,System.Exception)
-  fullName: ItsyBitsy.Bencoding.BencodeException.BencodeException(System.String, System.Exception)
-  nameWithType: BencodeException.BencodeException(String, Exception)
 - uid: ItsyBitsy.Bencoding.BencodeException.#ctor*
   name: BencodeException
   href: api/ItsyBitsy.Bencoding.BencodeException.html#ItsyBitsy_Bencoding_BencodeException__ctor_
@@ -1357,30 +1363,39 @@ references:
   commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor
   fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException()
   nameWithType: InvalidBencodeException.InvalidBencodeException()
+- uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Nullable{System.String})
+  name: InvalidBencodeException(Nullable<String>)
+  href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_System_Nullable_System_String__
+  commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Nullable{System.String})
+  name.vb: InvalidBencodeException(Nullable(Of String))
+  fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.Nullable<System.String>)
+  fullName.vb: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.Nullable(Of System.String))
+  nameWithType: InvalidBencodeException.InvalidBencodeException(Nullable<String>)
+  nameWithType.vb: InvalidBencodeException.InvalidBencodeException(Nullable(Of String))
+- uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Nullable{System.String},System.Int64)
+  name: InvalidBencodeException(Nullable<String>, Int64)
+  href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_System_Nullable_System_String__System_Int64_
+  commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Nullable{System.String},System.Int64)
+  name.vb: InvalidBencodeException(Nullable(Of String), Int64)
+  fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.Nullable<System.String>, System.Int64)
+  fullName.vb: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.Nullable(Of System.String), System.Int64)
+  nameWithType: InvalidBencodeException.InvalidBencodeException(Nullable<String>, Int64)
+  nameWithType.vb: InvalidBencodeException.InvalidBencodeException(Nullable(Of String), Int64)
+- uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Nullable{System.String},System.Nullable{System.Exception})
+  name: InvalidBencodeException(Nullable<String>, Nullable<Exception>)
+  href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_System_Nullable_System_String__System_Nullable_System_Exception__
+  commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Nullable{System.String},System.Nullable{System.Exception})
+  name.vb: InvalidBencodeException(Nullable(Of String), Nullable(Of Exception))
+  fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.Nullable<System.String>, System.Nullable<System.Exception>)
+  fullName.vb: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.Nullable(Of System.String), System.Nullable(Of System.Exception))
+  nameWithType: InvalidBencodeException.InvalidBencodeException(Nullable<String>, Nullable<Exception>)
+  nameWithType.vb: InvalidBencodeException.InvalidBencodeException(Nullable(Of String), Nullable(Of Exception))
 - uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: InvalidBencodeException(SerializationInfo, StreamingContext)
   href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
   commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: InvalidBencodeException.InvalidBencodeException(SerializationInfo, StreamingContext)
-- uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.String)
-  name: InvalidBencodeException(String)
-  href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_System_String_
-  commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.String)
-  fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.String)
-  nameWithType: InvalidBencodeException.InvalidBencodeException(String)
-- uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.String,System.Exception)
-  name: InvalidBencodeException(String, Exception)
-  href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_System_String_System_Exception_
-  commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.String,System.Exception)
-  fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.String, System.Exception)
-  nameWithType: InvalidBencodeException.InvalidBencodeException(String, Exception)
-- uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.String,System.Int64)
-  name: InvalidBencodeException(String, Int64)
-  href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_System_String_System_Int64_
-  commentId: M:ItsyBitsy.Bencoding.InvalidBencodeException.#ctor(System.String,System.Int64)
-  fullName: ItsyBitsy.Bencoding.InvalidBencodeException.InvalidBencodeException(System.String, System.Int64)
-  nameWithType: InvalidBencodeException.InvalidBencodeException(String, Int64)
 - uid: ItsyBitsy.Bencoding.InvalidBencodeException.#ctor*
   name: InvalidBencodeException
   href: api/ItsyBitsy.Bencoding.InvalidBencodeException.html#ItsyBitsy_Bencoding_InvalidBencodeException__ctor_
@@ -1426,30 +1441,39 @@ references:
   commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor
   fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException()
   nameWithType: UnsupportedBencodeException.UnsupportedBencodeException()
+- uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Nullable{System.String})
+  name: UnsupportedBencodeException(Nullable<String>)
+  href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_System_Nullable_System_String__
+  commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Nullable{System.String})
+  name.vb: UnsupportedBencodeException(Nullable(Of String))
+  fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.Nullable<System.String>)
+  fullName.vb: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.Nullable(Of System.String))
+  nameWithType: UnsupportedBencodeException.UnsupportedBencodeException(Nullable<String>)
+  nameWithType.vb: UnsupportedBencodeException.UnsupportedBencodeException(Nullable(Of String))
+- uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Nullable{System.String},System.Int64)
+  name: UnsupportedBencodeException(Nullable<String>, Int64)
+  href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_System_Nullable_System_String__System_Int64_
+  commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Nullable{System.String},System.Int64)
+  name.vb: UnsupportedBencodeException(Nullable(Of String), Int64)
+  fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.Nullable<System.String>, System.Int64)
+  fullName.vb: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.Nullable(Of System.String), System.Int64)
+  nameWithType: UnsupportedBencodeException.UnsupportedBencodeException(Nullable<String>, Int64)
+  nameWithType.vb: UnsupportedBencodeException.UnsupportedBencodeException(Nullable(Of String), Int64)
+- uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Nullable{System.String},System.Nullable{System.Exception})
+  name: UnsupportedBencodeException(Nullable<String>, Nullable<Exception>)
+  href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_System_Nullable_System_String__System_Nullable_System_Exception__
+  commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Nullable{System.String},System.Nullable{System.Exception})
+  name.vb: UnsupportedBencodeException(Nullable(Of String), Nullable(Of Exception))
+  fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.Nullable<System.String>, System.Nullable<System.Exception>)
+  fullName.vb: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.Nullable(Of System.String), System.Nullable(Of System.Exception))
+  nameWithType: UnsupportedBencodeException.UnsupportedBencodeException(Nullable<String>, Nullable<Exception>)
+  nameWithType.vb: UnsupportedBencodeException.UnsupportedBencodeException(Nullable(Of String), Nullable(Of Exception))
 - uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: UnsupportedBencodeException(SerializationInfo, StreamingContext)
   href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
   commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: UnsupportedBencodeException.UnsupportedBencodeException(SerializationInfo, StreamingContext)
-- uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.String)
-  name: UnsupportedBencodeException(String)
-  href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_System_String_
-  commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.String)
-  fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.String)
-  nameWithType: UnsupportedBencodeException.UnsupportedBencodeException(String)
-- uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.String,System.Exception)
-  name: UnsupportedBencodeException(String, Exception)
-  href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_System_String_System_Exception_
-  commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.String,System.Exception)
-  fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.String, System.Exception)
-  nameWithType: UnsupportedBencodeException.UnsupportedBencodeException(String, Exception)
-- uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.String,System.Int64)
-  name: UnsupportedBencodeException(String, Int64)
-  href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_System_String_System_Int64_
-  commentId: M:ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor(System.String,System.Int64)
-  fullName: ItsyBitsy.Bencoding.UnsupportedBencodeException.UnsupportedBencodeException(System.String, System.Int64)
-  nameWithType: UnsupportedBencodeException.UnsupportedBencodeException(String, Int64)
 - uid: ItsyBitsy.Bencoding.UnsupportedBencodeException.#ctor*
   name: UnsupportedBencodeException
   href: api/ItsyBitsy.Bencoding.UnsupportedBencodeException.html#ItsyBitsy_Bencoding_UnsupportedBencodeException__ctor_

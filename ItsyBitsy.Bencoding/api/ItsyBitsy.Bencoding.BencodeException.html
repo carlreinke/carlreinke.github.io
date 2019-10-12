@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BencodeException
    ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -170,6 +170,71 @@ Initializes a new instance of the <a class="xref" href="ItsyBitsy.Bencoding.Benc
   
   
   <a id="ItsyBitsy_Bencoding_BencodeException__ctor_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeException__ctor_System_Nullable_System_String__" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor(System.Nullable{System.String})">BencodeException(Nullable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary">
+Initializes a new instance of the <a class="xref" href="ItsyBitsy.Bencoding.BencodeException.html">BencodeException</a> class with the
+specified error message.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BencodeException(string? message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">message</span></td>
+        <td>The error message.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeException__ctor_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor*"></a>
+  <h4 id="ItsyBitsy_Bencoding_BencodeException__ctor_System_Nullable_System_String__System_Nullable_System_Exception__" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor(System.Nullable{System.String},System.Nullable{System.Exception})">BencodeException(Nullable&lt;String&gt;, Nullable&lt;Exception&gt;)</h4>
+  <div class="markdown level1 summary">
+Initializes a new instance of the <a class="xref" href="ItsyBitsy.Bencoding.BencodeException.html">BencodeException</a> class with the
+specified error message and inner exception that is the cause of this exception.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BencodeException(string? message, Exception? inner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">message</span></td>
+        <td>The error message.</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
+        <td><span class="parametername">inner</span></td>
+        <td>The inner exception that is the cause of this exception.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItsyBitsy_Bencoding_BencodeException__ctor_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor*"></a>
   <h4 id="ItsyBitsy_Bencoding_BencodeException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">BencodeException(SerializationInfo, StreamingContext)</h4>
   <div class="markdown level1 summary">
 Initializes a new instance of the <a class="xref" href="ItsyBitsy.Bencoding.BencodeException.html">BencodeException</a> class with serialized
@@ -219,71 +284,6 @@ data.
       <tr>
         <td><span class="xref">System.Runtime.Serialization.SerializationException</span></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ItsyBitsy_Bencoding_BencodeException__ctor_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor*"></a>
-  <h4 id="ItsyBitsy_Bencoding_BencodeException__ctor_System_String_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor(System.String)">BencodeException(String)</h4>
-  <div class="markdown level1 summary">
-Initializes a new instance of the <a class="xref" href="ItsyBitsy.Bencoding.BencodeException.html">BencodeException</a> class with the
-specified error message.
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BencodeException(string message)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td>The error message.</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ItsyBitsy_Bencoding_BencodeException__ctor_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor*"></a>
-  <h4 id="ItsyBitsy_Bencoding_BencodeException__ctor_System_String_System_Exception_" data-uid="ItsyBitsy.Bencoding.BencodeException.#ctor(System.String,System.Exception)">BencodeException(String, Exception)</h4>
-  <div class="markdown level1 summary">
-Initializes a new instance of the <a class="xref" href="ItsyBitsy.Bencoding.BencodeException.html">BencodeException</a> class with the
-specified error message and inner exception that is the cause of this exception.
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BencodeException(string message, Exception inner)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td>The error message.</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">inner</span></td>
-        <td>The inner exception that is the cause of this exception.</td>
       </tr>
     </tbody>
   </table>
