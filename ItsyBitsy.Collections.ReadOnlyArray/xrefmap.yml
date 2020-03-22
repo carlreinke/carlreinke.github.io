@@ -1,0 +1,690 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ItsyBitsy.Collections
+  name: ItsyBitsy.Collections
+  href: api/ItsyBitsy.Collections.html
+  commentId: N:ItsyBitsy.Collections
+  fullName: ItsyBitsy.Collections
+  nameWithType: ItsyBitsy.Collections
+- uid: ItsyBitsy.Collections.ReadOnlyArray
+  name: ReadOnlyArray
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html
+  commentId: T:ItsyBitsy.Collections.ReadOnlyArray
+  fullName: ItsyBitsy.Collections.ReadOnlyArray
+  nameWithType: ReadOnlyArray
+- uid: ItsyBitsy.Collections.ReadOnlyArray.FromArray*
+  name: FromArray
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_FromArray_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray.FromArray
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray.FromArray
+  nameWithType: ReadOnlyArray.FromArray
+- uid: ItsyBitsy.Collections.ReadOnlyArray.FromArray``1(``0[],array)
+  name: FromArray<T>(T[], array)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_FromArray__1___0___array_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray.FromArray``1(``0[],array)
+  name.vb: FromArray(Of T)(T(), array)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray.FromArray<T>(T[], array)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray.FromArray(Of T)(T(), array)
+  nameWithType: ReadOnlyArray.FromArray<T>(T[], array)
+  nameWithType.vb: ReadOnlyArray.FromArray(Of T)(T(), array)
+- uid: ItsyBitsy.Collections.ReadOnlyArray.FromImmutableArray*
+  name: FromImmutableArray
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_FromImmutableArray_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray.FromImmutableArray
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray.FromImmutableArray
+  nameWithType: ReadOnlyArray.FromImmutableArray
+- uid: ItsyBitsy.Collections.ReadOnlyArray.FromImmutableArray``1(System.Collections.Immutable.ImmutableArray{``0})
+  name: FromImmutableArray<T>(ImmutableArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_FromImmutableArray__1_System_Collections_Immutable_ImmutableArray___0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray.FromImmutableArray``1(System.Collections.Immutable.ImmutableArray{``0})
+  name.vb: FromImmutableArray(Of T)(ImmutableArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray.FromImmutableArray<T>(System.Collections.Immutable.ImmutableArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray.FromImmutableArray(Of T)(System.Collections.Immutable.ImmutableArray(Of T))
+  nameWithType: ReadOnlyArray.FromImmutableArray<T>(ImmutableArray<T>)
+  nameWithType.vb: ReadOnlyArray.FromImmutableArray(Of T)(ImmutableArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1
+  name: ReadOnlyArray<T>
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html
+  commentId: T:ItsyBitsy.Collections.ReadOnlyArray`1
+  name.vb: ReadOnlyArray(Of T)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T)
+  nameWithType: ReadOnlyArray<T>
+  nameWithType.vb: ReadOnlyArray(Of T)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.As*
+  name: As
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_As_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.As
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.As
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).As
+  nameWithType: ReadOnlyArray<T>.As
+  nameWithType.vb: ReadOnlyArray(Of T).As
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.As``1
+  name: As<TOther>()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_As__1
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.As``1
+  name.vb: As(Of TOther)()
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.As<TOther>()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).As(Of TOther)()
+  nameWithType: ReadOnlyArray<T>.As<TOther>()
+  nameWithType.vb: ReadOnlyArray(Of T).As(Of TOther)()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.AsMemory
+  name: AsMemory()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_AsMemory
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.AsMemory
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.AsMemory()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).AsMemory()
+  nameWithType: ReadOnlyArray<T>.AsMemory()
+  nameWithType.vb: ReadOnlyArray(Of T).AsMemory()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.AsMemory*
+  name: AsMemory
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_AsMemory_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.AsMemory
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.AsMemory
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).AsMemory
+  nameWithType: ReadOnlyArray<T>.AsMemory
+  nameWithType.vb: ReadOnlyArray(Of T).AsMemory
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.AsSpan
+  name: AsSpan()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_AsSpan
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.AsSpan
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.AsSpan()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).AsSpan()
+  nameWithType: ReadOnlyArray<T>.AsSpan()
+  nameWithType.vb: ReadOnlyArray(Of T).AsSpan()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.AsSpan*
+  name: AsSpan
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_AsSpan_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.AsSpan
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.AsSpan
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).AsSpan
+  nameWithType: ReadOnlyArray<T>.AsSpan
+  nameWithType.vb: ReadOnlyArray(Of T).AsSpan
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CastArray*
+  name: CastArray
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CastArray_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.CastArray
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CastArray
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CastArray
+  nameWithType: ReadOnlyArray<T>.CastArray
+  nameWithType.vb: ReadOnlyArray(Of T).CastArray
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CastArray``1
+  name: CastArray<TOther>()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CastArray__1
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.CastArray``1
+  name.vb: CastArray(Of TOther)()
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CastArray<TOther>()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CastArray(Of TOther)()
+  nameWithType: ReadOnlyArray<T>.CastArray<TOther>()
+  nameWithType.vb: ReadOnlyArray(Of T).CastArray(Of TOther)()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CastUp*
+  name: CastUp
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CastUp_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.CastUp
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CastUp
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CastUp
+  nameWithType: ReadOnlyArray<T>.CastUp
+  nameWithType.vb: ReadOnlyArray(Of T).CastUp
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CastUp``1(ItsyBitsy.Collections.ReadOnlyArray{``0})
+  name: CastUp<TDerived>(ReadOnlyArray<TDerived>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CastUp__1_ItsyBitsy_Collections_ReadOnlyArray___0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.CastUp``1(ItsyBitsy.Collections.ReadOnlyArray{``0})
+  name.vb: CastUp(Of TDerived)(ReadOnlyArray(Of TDerived))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CastUp<TDerived>(ItsyBitsy.Collections.ReadOnlyArray<TDerived>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CastUp(Of TDerived)(ItsyBitsy.Collections.ReadOnlyArray(Of TDerived))
+  nameWithType: ReadOnlyArray<T>.CastUp<TDerived>(ReadOnlyArray<TDerived>)
+  nameWithType.vb: ReadOnlyArray(Of T).CastUp(Of TDerived)(ReadOnlyArray(Of TDerived))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo(`0[])
+  name: CopyTo(T[])
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CopyTo__0___
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo(`0[])
+  name.vb: CopyTo(T())
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CopyTo(T[])
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CopyTo(T())
+  nameWithType: ReadOnlyArray<T>.CopyTo(T[])
+  nameWithType.vb: ReadOnlyArray(Of T).CopyTo(T())
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CopyTo__0___System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CopyTo(T[], System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CopyTo(T(), System.Int32)
+  nameWithType: ReadOnlyArray<T>.CopyTo(T[], Int32)
+  nameWithType.vb: ReadOnlyArray(Of T).CopyTo(T(), Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)
+  name: CopyTo(Int32, T[], Int32, Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CopyTo_System_Int32__0___System_Int32_System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)
+  name.vb: CopyTo(Int32, T(), Int32, Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CopyTo(System.Int32, T[], System.Int32, System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CopyTo(System.Int32, T(), System.Int32, System.Int32)
+  nameWithType: ReadOnlyArray<T>.CopyTo(Int32, T[], Int32, Int32)
+  nameWithType.vb: ReadOnlyArray(Of T).CopyTo(Int32, T(), Int32, Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo*
+  name: CopyTo
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_CopyTo_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.CopyTo
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.CopyTo
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).CopyTo
+  nameWithType: ReadOnlyArray<T>.CopyTo
+  nameWithType.vb: ReadOnlyArray(Of T).CopyTo
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Empty
+  name: Empty
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Empty
+  commentId: F:ItsyBitsy.Collections.ReadOnlyArray`1.Empty
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Empty
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Empty
+  nameWithType: ReadOnlyArray<T>.Empty
+  nameWithType.vb: ReadOnlyArray(Of T).Empty
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator
+  name: ReadOnlyArray<T>.Enumerator
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.Enumerator.html
+  commentId: T:ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator
+  name.vb: ReadOnlyArray(Of T).Enumerator
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Enumerator
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Enumerator
+  nameWithType: ReadOnlyArray<T>.Enumerator
+  nameWithType.vb: ReadOnlyArray(Of T).Enumerator
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.Current
+  name: Current
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.Enumerator.html#ItsyBitsy_Collections_ReadOnlyArray_1_Enumerator_Current
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.Current
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Enumerator.Current
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Enumerator.Current
+  nameWithType: ReadOnlyArray<T>.Enumerator.Current
+  nameWithType.vb: ReadOnlyArray(Of T).Enumerator.Current
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.Current*
+  name: Current
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.Enumerator.html#ItsyBitsy_Collections_ReadOnlyArray_1_Enumerator_Current_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.Current
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Enumerator.Current
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Enumerator.Current
+  nameWithType: ReadOnlyArray<T>.Enumerator.Current
+  nameWithType.vb: ReadOnlyArray(Of T).Enumerator.Current
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.MoveNext
+  name: MoveNext()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.Enumerator.html#ItsyBitsy_Collections_ReadOnlyArray_1_Enumerator_MoveNext
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.MoveNext
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Enumerator.MoveNext()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Enumerator.MoveNext()
+  nameWithType: ReadOnlyArray<T>.Enumerator.MoveNext()
+  nameWithType.vb: ReadOnlyArray(Of T).Enumerator.MoveNext()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.MoveNext*
+  name: MoveNext
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.Enumerator.html#ItsyBitsy_Collections_ReadOnlyArray_1_Enumerator_MoveNext_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.Enumerator.MoveNext
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Enumerator.MoveNext
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Enumerator.MoveNext
+  nameWithType: ReadOnlyArray<T>.Enumerator.MoveNext
+  nameWithType.vb: ReadOnlyArray(Of T).Enumerator.MoveNext
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Equals(ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name: Equals(ReadOnlyArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Equals_ItsyBitsy_Collections_ReadOnlyArray__0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.Equals(ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name.vb: Equals(ReadOnlyArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equals(ItsyBitsy.Collections.ReadOnlyArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equals(ItsyBitsy.Collections.ReadOnlyArray(Of T))
+  nameWithType: ReadOnlyArray<T>.Equals(ReadOnlyArray<T>)
+  nameWithType.vb: ReadOnlyArray(Of T).Equals(ReadOnlyArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Equals(System.Object)
+  name: Equals(Object)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Equals_System_Object_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.Equals(System.Object)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equals(System.Object)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equals(System.Object)
+  nameWithType: ReadOnlyArray<T>.Equals(Object)
+  nameWithType.vb: ReadOnlyArray(Of T).Equals(Object)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Equals*
+  name: Equals
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Equals_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.Equals
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equals
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equals
+  nameWithType: ReadOnlyArray<T>.Equals
+  nameWithType.vb: ReadOnlyArray(Of T).Equals
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_GetEnumerator
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.GetEnumerator
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.GetEnumerator()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).GetEnumerator()
+  nameWithType: ReadOnlyArray<T>.GetEnumerator()
+  nameWithType.vb: ReadOnlyArray(Of T).GetEnumerator()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_GetEnumerator_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.GetEnumerator
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.GetEnumerator
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).GetEnumerator
+  nameWithType: ReadOnlyArray<T>.GetEnumerator
+  nameWithType.vb: ReadOnlyArray(Of T).GetEnumerator
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.GetHashCode
+  name: GetHashCode()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_GetHashCode
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.GetHashCode
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.GetHashCode()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).GetHashCode()
+  nameWithType: ReadOnlyArray<T>.GetHashCode()
+  nameWithType.vb: ReadOnlyArray(Of T).GetHashCode()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.GetHashCode*
+  name: GetHashCode
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_GetHashCode_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.GetHashCode
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.GetHashCode
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).GetHashCode
+  nameWithType: ReadOnlyArray<T>.GetHashCode
+  nameWithType.vb: ReadOnlyArray(Of T).GetHashCode
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf(`0)
+  name: IndexOf(T)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IndexOf__0_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf(`0)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IndexOf(T)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IndexOf(T)
+  nameWithType: ReadOnlyArray<T>.IndexOf(T)
+  nameWithType.vb: ReadOnlyArray(Of T).IndexOf(T)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf(`0,System.Int32)
+  name: IndexOf(T, Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IndexOf__0_System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf(`0,System.Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IndexOf(T, System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IndexOf(T, System.Int32)
+  nameWithType: ReadOnlyArray<T>.IndexOf(T, Int32)
+  nameWithType.vb: ReadOnlyArray(Of T).IndexOf(T, Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf(`0,System.Int32,System.Int32)
+  name: IndexOf(T, Int32, Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IndexOf__0_System_Int32_System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf(`0,System.Int32,System.Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IndexOf(T, System.Int32, System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IndexOf(T, System.Int32, System.Int32)
+  nameWithType: ReadOnlyArray<T>.IndexOf(T, Int32, Int32)
+  nameWithType.vb: ReadOnlyArray(Of T).IndexOf(T, Int32, Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf*
+  name: IndexOf
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IndexOf_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.IndexOf
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IndexOf
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IndexOf
+  nameWithType: ReadOnlyArray<T>.IndexOf
+  nameWithType.vb: ReadOnlyArray(Of T).IndexOf
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IsDefault
+  name: IsDefault
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IsDefault
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.IsDefault
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IsDefault
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IsDefault
+  nameWithType: ReadOnlyArray<T>.IsDefault
+  nameWithType.vb: ReadOnlyArray(Of T).IsDefault
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IsDefault*
+  name: IsDefault
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IsDefault_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.IsDefault
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IsDefault
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IsDefault
+  nameWithType: ReadOnlyArray<T>.IsDefault
+  nameWithType.vb: ReadOnlyArray(Of T).IsDefault
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IsDefaultOrEmpty
+  name: IsDefaultOrEmpty
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IsDefaultOrEmpty
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.IsDefaultOrEmpty
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IsDefaultOrEmpty
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IsDefaultOrEmpty
+  nameWithType: ReadOnlyArray<T>.IsDefaultOrEmpty
+  nameWithType.vb: ReadOnlyArray(Of T).IsDefaultOrEmpty
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IsDefaultOrEmpty*
+  name: IsDefaultOrEmpty
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IsDefaultOrEmpty_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.IsDefaultOrEmpty
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IsDefaultOrEmpty
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IsDefaultOrEmpty
+  nameWithType: ReadOnlyArray<T>.IsDefaultOrEmpty
+  nameWithType.vb: ReadOnlyArray(Of T).IsDefaultOrEmpty
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IsEmpty
+  name: IsEmpty
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IsEmpty
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.IsEmpty
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IsEmpty
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IsEmpty
+  nameWithType: ReadOnlyArray<T>.IsEmpty
+  nameWithType.vb: ReadOnlyArray(Of T).IsEmpty
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.IsEmpty*
+  name: IsEmpty
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_IsEmpty_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.IsEmpty
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.IsEmpty
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).IsEmpty
+  nameWithType: ReadOnlyArray<T>.IsEmpty
+  nameWithType.vb: ReadOnlyArray(Of T).IsEmpty
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Item_System_Int32_
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Item[System.Int32]
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Item(System.Int32)
+  nameWithType: ReadOnlyArray<T>.Item[Int32]
+  nameWithType.vb: ReadOnlyArray(Of T).Item(Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Item*
+  name: Item
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Item_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.Item
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Item
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Item
+  nameWithType: ReadOnlyArray<T>.Item
+  nameWithType.vb: ReadOnlyArray(Of T).Item
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.ItemRef(System.Int32)
+  name: ItemRef(Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_ItemRef_System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.ItemRef(System.Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.ItemRef(System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).ItemRef(System.Int32)
+  nameWithType: ReadOnlyArray<T>.ItemRef(Int32)
+  nameWithType.vb: ReadOnlyArray(Of T).ItemRef(Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.ItemRef*
+  name: ItemRef
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_ItemRef_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.ItemRef
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.ItemRef
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).ItemRef
+  nameWithType: ReadOnlyArray<T>.ItemRef
+  nameWithType.vb: ReadOnlyArray(Of T).ItemRef
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf(`0)
+  name: LastIndexOf(T)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_LastIndexOf__0_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf(`0)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.LastIndexOf(T)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).LastIndexOf(T)
+  nameWithType: ReadOnlyArray<T>.LastIndexOf(T)
+  nameWithType.vb: ReadOnlyArray(Of T).LastIndexOf(T)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf(`0,System.Int32)
+  name: LastIndexOf(T, Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_LastIndexOf__0_System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf(`0,System.Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.LastIndexOf(T, System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).LastIndexOf(T, System.Int32)
+  nameWithType: ReadOnlyArray<T>.LastIndexOf(T, Int32)
+  nameWithType.vb: ReadOnlyArray(Of T).LastIndexOf(T, Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf(`0,System.Int32,System.Int32)
+  name: LastIndexOf(T, Int32, Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_LastIndexOf__0_System_Int32_System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf(`0,System.Int32,System.Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.LastIndexOf(T, System.Int32, System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).LastIndexOf(T, System.Int32, System.Int32)
+  nameWithType: ReadOnlyArray<T>.LastIndexOf(T, Int32, Int32)
+  nameWithType.vb: ReadOnlyArray(Of T).LastIndexOf(T, Int32, Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf*
+  name: LastIndexOf
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_LastIndexOf_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.LastIndexOf
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.LastIndexOf
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).LastIndexOf
+  nameWithType: ReadOnlyArray<T>.LastIndexOf
+  nameWithType.vb: ReadOnlyArray(Of T).LastIndexOf
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Length
+  name: Length
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Length
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.Length
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Length
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Length
+  nameWithType: ReadOnlyArray<T>.Length
+  nameWithType.vb: ReadOnlyArray(Of T).Length
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.Length*
+  name: Length
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_Length_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.Length
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Length
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Length
+  nameWithType: ReadOnlyArray<T>.Length
+  nameWithType.vb: ReadOnlyArray(Of T).Length
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(ItsyBitsy.Collections.ReadOnlyArray{`0},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name: Equality(ReadOnlyArray<T>, ReadOnlyArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Equality_ItsyBitsy_Collections_ReadOnlyArray__0__ItsyBitsy_Collections_ReadOnlyArray__0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(ItsyBitsy.Collections.ReadOnlyArray{`0},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name.vb: Equality(ReadOnlyArray(Of T), ReadOnlyArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equality(ItsyBitsy.Collections.ReadOnlyArray<T>, ItsyBitsy.Collections.ReadOnlyArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equality(ItsyBitsy.Collections.ReadOnlyArray(Of T), ItsyBitsy.Collections.ReadOnlyArray(Of T))
+  nameWithType: ReadOnlyArray<T>.Equality(ReadOnlyArray<T>, ReadOnlyArray<T>)
+  nameWithType.vb: ReadOnlyArray(Of T).Equality(ReadOnlyArray(Of T), ReadOnlyArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(ItsyBitsy.Collections.ReadOnlyArray{`0},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name: Equality(ReadOnlyArray<T>, Nullable<ReadOnlyArray<T>>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Equality_ItsyBitsy_Collections_ReadOnlyArray__0__System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(ItsyBitsy.Collections.ReadOnlyArray{`0},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name.vb: Equality(ReadOnlyArray(Of T), Nullable(Of ReadOnlyArray(Of T)))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equality(ItsyBitsy.Collections.ReadOnlyArray<T>, System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equality(ItsyBitsy.Collections.ReadOnlyArray(Of T), System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)))
+  nameWithType: ReadOnlyArray<T>.Equality(ReadOnlyArray<T>, Nullable<ReadOnlyArray<T>>)
+  nameWithType.vb: ReadOnlyArray(Of T).Equality(ReadOnlyArray(Of T), Nullable(Of ReadOnlyArray(Of T)))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name: Equality(Nullable<ReadOnlyArray<T>>, ReadOnlyArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Equality_System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___ItsyBitsy_Collections_ReadOnlyArray__0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name.vb: Equality(Nullable(Of ReadOnlyArray(Of T)), ReadOnlyArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equality(System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>, ItsyBitsy.Collections.ReadOnlyArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equality(System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)), ItsyBitsy.Collections.ReadOnlyArray(Of T))
+  nameWithType: ReadOnlyArray<T>.Equality(Nullable<ReadOnlyArray<T>>, ReadOnlyArray<T>)
+  nameWithType.vb: ReadOnlyArray(Of T).Equality(Nullable(Of ReadOnlyArray(Of T)), ReadOnlyArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name: Equality(Nullable<ReadOnlyArray<T>>, Nullable<ReadOnlyArray<T>>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Equality_System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name.vb: Equality(Nullable(Of ReadOnlyArray(Of T)), Nullable(Of ReadOnlyArray(Of T)))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equality(System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>, System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equality(System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)), System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)))
+  nameWithType: ReadOnlyArray<T>.Equality(Nullable<ReadOnlyArray<T>>, Nullable<ReadOnlyArray<T>>)
+  nameWithType.vb: ReadOnlyArray(Of T).Equality(Nullable(Of ReadOnlyArray(Of T)), Nullable(Of ReadOnlyArray(Of T)))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality*
+  name: Equality
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Equality_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.op_Equality
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Equality
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Equality
+  nameWithType: ReadOnlyArray<T>.Equality
+  nameWithType.vb: ReadOnlyArray(Of T).Equality
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Implicit(`0[],array)~ItsyBitsy.Collections.ReadOnlyArray{`0}
+  name: Implicit(T[] to ReadOnlyArray<T>, array to ReadOnlyArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Implicit__0___array__ItsyBitsy_Collections_ReadOnlyArray__0_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Implicit(`0[],array)~ItsyBitsy.Collections.ReadOnlyArray{`0}
+  name.vb: Widening(T() to ReadOnlyArray(Of T), array to ReadOnlyArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Implicit(T[] to ItsyBitsy.Collections.ReadOnlyArray<T>, array to ItsyBitsy.Collections.ReadOnlyArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Widening(T() to ItsyBitsy.Collections.ReadOnlyArray(Of T), array to ItsyBitsy.Collections.ReadOnlyArray(Of T))
+  nameWithType: ReadOnlyArray<T>.Implicit(T[] to ReadOnlyArray<T>, array to ReadOnlyArray<T>)
+  nameWithType.vb: ReadOnlyArray(Of T).Widening(T() to ReadOnlyArray(Of T), array to ReadOnlyArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Implicit(System.Collections.Immutable.ImmutableArray{`0})~ItsyBitsy.Collections.ReadOnlyArray{`0}
+  name: Implicit(ImmutableArray<T> to ReadOnlyArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Implicit_System_Collections_Immutable_ImmutableArray__0___ItsyBitsy_Collections_ReadOnlyArray__0_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Implicit(System.Collections.Immutable.ImmutableArray{`0})~ItsyBitsy.Collections.ReadOnlyArray{`0}
+  name.vb: Widening(ImmutableArray(Of T) to ReadOnlyArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Implicit(System.Collections.Immutable.ImmutableArray<T> to ItsyBitsy.Collections.ReadOnlyArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Widening(System.Collections.Immutable.ImmutableArray(Of T) to ItsyBitsy.Collections.ReadOnlyArray(Of T))
+  nameWithType: ReadOnlyArray<T>.Implicit(ImmutableArray<T> to ReadOnlyArray<T>)
+  nameWithType.vb: ReadOnlyArray(Of T).Widening(ImmutableArray(Of T) to ReadOnlyArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Implicit*
+  name: Implicit
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Implicit_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Implicit
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Widening
+  nameWithType: ReadOnlyArray<T>.Implicit
+  nameWithType.vb: ReadOnlyArray(Of T).Widening
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(ItsyBitsy.Collections.ReadOnlyArray{`0},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name: Inequality(ReadOnlyArray<T>, ReadOnlyArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Inequality_ItsyBitsy_Collections_ReadOnlyArray__0__ItsyBitsy_Collections_ReadOnlyArray__0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(ItsyBitsy.Collections.ReadOnlyArray{`0},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name.vb: Inequality(ReadOnlyArray(Of T), ReadOnlyArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Inequality(ItsyBitsy.Collections.ReadOnlyArray<T>, ItsyBitsy.Collections.ReadOnlyArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Inequality(ItsyBitsy.Collections.ReadOnlyArray(Of T), ItsyBitsy.Collections.ReadOnlyArray(Of T))
+  nameWithType: ReadOnlyArray<T>.Inequality(ReadOnlyArray<T>, ReadOnlyArray<T>)
+  nameWithType.vb: ReadOnlyArray(Of T).Inequality(ReadOnlyArray(Of T), ReadOnlyArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(ItsyBitsy.Collections.ReadOnlyArray{`0},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name: Inequality(ReadOnlyArray<T>, Nullable<ReadOnlyArray<T>>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Inequality_ItsyBitsy_Collections_ReadOnlyArray__0__System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(ItsyBitsy.Collections.ReadOnlyArray{`0},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name.vb: Inequality(ReadOnlyArray(Of T), Nullable(Of ReadOnlyArray(Of T)))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Inequality(ItsyBitsy.Collections.ReadOnlyArray<T>, System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Inequality(ItsyBitsy.Collections.ReadOnlyArray(Of T), System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)))
+  nameWithType: ReadOnlyArray<T>.Inequality(ReadOnlyArray<T>, Nullable<ReadOnlyArray<T>>)
+  nameWithType.vb: ReadOnlyArray(Of T).Inequality(ReadOnlyArray(Of T), Nullable(Of ReadOnlyArray(Of T)))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name: Inequality(Nullable<ReadOnlyArray<T>>, ReadOnlyArray<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Inequality_System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___ItsyBitsy_Collections_ReadOnlyArray__0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},ItsyBitsy.Collections.ReadOnlyArray{`0})
+  name.vb: Inequality(Nullable(Of ReadOnlyArray(Of T)), ReadOnlyArray(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Inequality(System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>, ItsyBitsy.Collections.ReadOnlyArray<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Inequality(System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)), ItsyBitsy.Collections.ReadOnlyArray(Of T))
+  nameWithType: ReadOnlyArray<T>.Inequality(Nullable<ReadOnlyArray<T>>, ReadOnlyArray<T>)
+  nameWithType.vb: ReadOnlyArray(Of T).Inequality(Nullable(Of ReadOnlyArray(Of T)), ReadOnlyArray(Of T))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name: Inequality(Nullable<ReadOnlyArray<T>>, Nullable<ReadOnlyArray<T>>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Inequality_System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___System_Nullable_ItsyBitsy_Collections_ReadOnlyArray__0___
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality(System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}},System.Nullable{ItsyBitsy.Collections.ReadOnlyArray{`0}})
+  name.vb: Inequality(Nullable(Of ReadOnlyArray(Of T)), Nullable(Of ReadOnlyArray(Of T)))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Inequality(System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>, System.Nullable<ItsyBitsy.Collections.ReadOnlyArray<T>>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Inequality(System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)), System.Nullable(Of ItsyBitsy.Collections.ReadOnlyArray(Of T)))
+  nameWithType: ReadOnlyArray<T>.Inequality(Nullable<ReadOnlyArray<T>>, Nullable<ReadOnlyArray<T>>)
+  nameWithType.vb: ReadOnlyArray(Of T).Inequality(Nullable(Of ReadOnlyArray(Of T)), Nullable(Of ReadOnlyArray(Of T)))
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality*
+  name: Inequality
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_op_Inequality_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.op_Inequality
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.Inequality
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).Inequality
+  nameWithType: ReadOnlyArray<T>.Inequality
+  nameWithType.vb: ReadOnlyArray(Of T).Inequality
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  name: IEnumerable<T>.GetEnumerator()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_Generic_IEnumerable_T__GetEnumerator
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  name.vb: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType: ReadOnlyArray<T>.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator*
+  name: IEnumerable<T>.GetEnumerator
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_Generic_IEnumerable_T__GetEnumerator_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IEnumerable<T>.GetEnumerator
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator
+  nameWithType: ReadOnlyArray<T>.IEnumerable<T>.GetEnumerator
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyCollection{T}#Count
+  name: IReadOnlyCollection<T>.Count
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_Generic_IReadOnlyCollection_T__Count
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyCollection{T}#Count
+  name.vb: System.Collections.Generic.IReadOnlyCollection<T>.Count
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.Generic.IReadOnlyCollection<T>.Count
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyCollection<T>.Count
+  nameWithType: ReadOnlyArray<T>.IReadOnlyCollection<T>.Count
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyCollection<T>.Count
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyCollection{T}#Count*
+  name: IReadOnlyCollection<T>.Count
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_Generic_IReadOnlyCollection_T__Count_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyCollection{T}#Count
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IReadOnlyCollection<T>.Count
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.Generic.IReadOnlyCollection<T>.Count
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyCollection<T>.Count
+  nameWithType: ReadOnlyArray<T>.IReadOnlyCollection<T>.Count
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyCollection<T>.Count
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyList{T}#Item(System.Int32)
+  name: IReadOnlyList<T>.Item[Int32]
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_Generic_IReadOnlyList_T__Item_System_Int32_
+  commentId: P:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyList{T}#Item(System.Int32)
+  name.vb: System.Collections.Generic.IReadOnlyList<T>.Item(Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.Generic.IReadOnlyList<T>.Item[System.Int32]
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyList<T>.Item(System.Int32)
+  nameWithType: ReadOnlyArray<T>.IReadOnlyList<T>.Item[Int32]
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyList<T>.Item(Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyList{T}#Item*
+  name: IReadOnlyList<T>.Item
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_Generic_IReadOnlyList_T__Item_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#Generic#IReadOnlyList{T}#Item
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IReadOnlyList<T>.Item
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.Generic.IReadOnlyList<T>.Item
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyList<T>.Item
+  nameWithType: ReadOnlyArray<T>.IReadOnlyList<T>.Item
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.Generic.IReadOnlyList<T>.Item
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: ReadOnlyArray<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ReadOnlyArray<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.IEnumerable.GetEnumerator
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  name: IStructuralEquatable.GetHashCode(IEqualityComparer)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IStructuralEquatable#GetHashCode(System.Collections.IEqualityComparer)
+  name.vb: System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer)
+  nameWithType: ReadOnlyArray<T>.IStructuralEquatable.GetHashCode(IEqualityComparer)
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer)
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IStructuralEquatable#GetHashCode*
+  name: IStructuralEquatable.GetHashCode
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_System_Collections_IStructuralEquatable_GetHashCode_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.System#Collections#IStructuralEquatable#GetHashCode
+  isSpec: "True"
+  name.vb: System.Collections.IStructuralEquatable.GetHashCode
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.System.Collections.IStructuralEquatable.GetHashCode
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).System.Collections.IStructuralEquatable.GetHashCode
+  nameWithType: ReadOnlyArray<T>.IStructuralEquatable.GetHashCode
+  nameWithType.vb: ReadOnlyArray(Of T).System.Collections.IStructuralEquatable.GetHashCode
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.ToImmutableArray
+  name: ToImmutableArray()
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_ToImmutableArray
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray`1.ToImmutableArray
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.ToImmutableArray()
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).ToImmutableArray()
+  nameWithType: ReadOnlyArray<T>.ToImmutableArray()
+  nameWithType.vb: ReadOnlyArray(Of T).ToImmutableArray()
+- uid: ItsyBitsy.Collections.ReadOnlyArray`1.ToImmutableArray*
+  name: ToImmutableArray
+  href: api/ItsyBitsy.Collections.ReadOnlyArray-1.html#ItsyBitsy_Collections_ReadOnlyArray_1_ToImmutableArray_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray`1.ToImmutableArray
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray<T>.ToImmutableArray
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray(Of T).ToImmutableArray
+  nameWithType: ReadOnlyArray<T>.ToImmutableArray
+  nameWithType.vb: ReadOnlyArray(Of T).ToImmutableArray
