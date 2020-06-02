@@ -13,6 +13,31 @@ references:
   commentId: T:ItsyBitsy.Collections.ReadOnlyArray
   fullName: ItsyBitsy.Collections.ReadOnlyArray
   nameWithType: ReadOnlyArray
+- uid: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable*
+  name: CreateImmutable
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_CreateImmutable_
+  commentId: Overload:ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable
+  isSpec: "True"
+  fullName: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable
+  nameWithType: ReadOnlyArray.CreateImmutable
+- uid: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable``1(ItsyBitsy.Collections.ReadOnlyArray{``0},System.Int32,System.Int32)
+  name: CreateImmutable<T>(ReadOnlyArray<T>, Int32, Int32)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_CreateImmutable__1_ItsyBitsy_Collections_ReadOnlyArray___0__System_Int32_System_Int32_
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable``1(ItsyBitsy.Collections.ReadOnlyArray{``0},System.Int32,System.Int32)
+  name.vb: CreateImmutable(Of T)(ReadOnlyArray(Of T), Int32, Int32)
+  fullName: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable<T>(ItsyBitsy.Collections.ReadOnlyArray<T>, System.Int32, System.Int32)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable(Of T)(ItsyBitsy.Collections.ReadOnlyArray(Of T), System.Int32, System.Int32)
+  nameWithType: ReadOnlyArray.CreateImmutable<T>(ReadOnlyArray<T>, Int32, Int32)
+  nameWithType.vb: ReadOnlyArray.CreateImmutable(Of T)(ReadOnlyArray(Of T), Int32, Int32)
+- uid: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable``1(System.ReadOnlySpan{``0})
+  name: CreateImmutable<T>(ReadOnlySpan<T>)
+  href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_CreateImmutable__1_System_ReadOnlySpan___0__
+  commentId: M:ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable``1(System.ReadOnlySpan{``0})
+  name.vb: CreateImmutable(Of T)(ReadOnlySpan(Of T))
+  fullName: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable<T>(System.ReadOnlySpan<T>)
+  fullName.vb: ItsyBitsy.Collections.ReadOnlyArray.CreateImmutable(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: ReadOnlyArray.CreateImmutable<T>(ReadOnlySpan<T>)
+  nameWithType.vb: ReadOnlyArray.CreateImmutable(Of T)(ReadOnlySpan(Of T))
 - uid: ItsyBitsy.Collections.ReadOnlyArray.FromArray*
   name: FromArray
   href: api/ItsyBitsy.Collections.ReadOnlyArray.html#ItsyBitsy_Collections_ReadOnlyArray_FromArray_
